@@ -6,7 +6,9 @@ const app = express()
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "http://localhost:3000"
+        "http://localhost:3000",
+        "http://34.228.21.142:5173",
+        "http://34.228.21.142:5174",
         // Production URL here
     ],
     credentials: true
